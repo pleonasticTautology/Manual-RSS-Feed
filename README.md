@@ -16,3 +16,8 @@
 * The default value for `<ttl>` is `20000` minutes.
 
 * The **RSS Item** clip goes between `</ttl>` and `</channel>`. Use an **RSS Item** clip for each item in the RSS feed.
+
+* If you want to include links and/or images in the `description` of an **RSS Item**, you need to use HTML entitles for angle brackets and quotes. For quick reference:
+	* `<` = `&lt;`
+	* `>` = `&gt;`
+	* `"` = `&quot;`
