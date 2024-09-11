@@ -1,14 +1,14 @@
 {
   "clips" : [
     {
-      "content" : "<item>\n\t<title>\n\t\t${:Title}\n\t<\/title>\n\t<description>\n\t\t${:Description}\n\t<\/description>\n\t<link>\n\t\t${:URL to item}\n\t<\/link>\n\t<pubDate>\n\t\t${:Publication date}\n\t<\/pubDate>\n<\/item>",
-      "name" : "RSS Item",
+      "content" : "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n<channel>\n  <title>\n  \t${:Title of RSS feed}\n  <\/title>\n  <description>\n  \t${:RSS feed description}\n  <\/description>\n  <link>\n  \t${:Link to page RSS is for}\n  <\/link>\n  <lastBuildDate>\n\t${:Date of the latest item in the feed}\n  <\/lastBuildDate>\n  <ttl>\n  \t${:Integer minutes feed can stay cached before refreshing}\n  <\/ttl>\n<atom:link href=\"${:URL of this XML file when online}\" rel=\"self\" type=\"application/rss+xml\" />\n<\/channel>\n<\/rss>",
+      "name" : "RSS Feed",
       "scope" : "editor",
       "syntax" : "xml"
     },
     {
-      "content" : "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<rss version=\"2.0\">\n<channel>\n  <title>\n  \t${:Title of RSS feed}\n  <\/title>\n  <description>\n  \t${:RSS feed description}\n  <\/description>\n  <link>\n  \t${:Link to page RSS is for}\n  <\/link>\n  <lastBuildDate>\n\t${:Date of the latest item in the feed}\n  <\/lastBuildDate>\n  <ttl>\n  \t${:Integer minutes feed can stay cached before refreshing}\n  <\/ttl>\n<\/channel>\n<\/rss>",
-      "name" : "RSS Feed",
+      "content" : "<item>\n\t<title>\n\t\t${:Title}\n\t<\/title>\n\t<description>\n\t\t${:Description}\n\t<\/description>\n\t<guid>\n\t\t${:Permanent URL to item}\n\t<\/guid>\n\t<pubDate>\n\t\t${:Publication date}\n\t<\/pubDate>\n<\/item>",
+      "name" : "RSS Item",
       "scope" : "editor",
       "syntax" : "xml"
     }
