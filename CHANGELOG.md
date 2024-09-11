@@ -1,3 +1,7 @@
+## Version 1.0.4
+
+Updated Clips.json to fix bug
+
 ## Version 1.0.3
 
 Updated Clips.json as per W3 RSS 2.0 guidelines

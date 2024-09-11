@@ -7,7 +7,7 @@
       "syntax" : "xml"
     },
     {
-      "content" : "<item>\n\t<title>\n\t\t${:Title}\n\t<\/title>\n\t<description>\n\t\t${:Description}\n\t<\/description>\n\t<guid>\n\t\t${:Permanent URL to item}\n\t<\/guid>\n\t<pubDate>\n\t\t${:Publication date}\n\t<\/pubDate>\n<\/item>",
+      "content" : "<item>\n\t<title>\n\t\t${:Title}\n\t<\/title>\n\t<description>\n\t\t${:Description}\n\t<\/description>\n\t<guid>\n\t\t${:Permanent URL to item}\n\t<\/guid>\n<link>\n\t\t${:URL to item}\n\t<\/link>\n\t<pubDate>\n\t\t${:Publication date}\n\t<\/pubDate>\n<\/item>",
       "name" : "RSS Item",
       "scope" : "editor",
       "syntax" : "xml"
