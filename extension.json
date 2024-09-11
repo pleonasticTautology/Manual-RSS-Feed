@@ -1,0 +1,9 @@
+{
+    "identifier": "tautology.manualRSSfeed",
+    "name": "Manual RSS Feed",
+    "organization": "Tautology System",
+    "description": "A clip for manually creating an RSS feed in and adding RSS items to an XML file.",
+    "version": "1.0",
+    "categories": ["clips"],
+    "bugs": "dev@tautology.systems"
+}
