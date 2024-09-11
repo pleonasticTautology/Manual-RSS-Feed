@@ -5,5 +5,5 @@
     "description": "A clip for manually creating an RSS feed in and adding RSS items to an XML file.",
     "version": "1.0",
     "categories": ["clips"],
-    "bugs": "dev@tautology.systems"
+    "bugs": "https://github.com/pleonasticTautology/Manual-RSS-Feed"
 }
